@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10rem;
+    gap:3rem;
+}
+
+.box1{
+    width:150px;
+    height:150px;
+    background-color: red;
+    border-radius: 50%;
+    animation:box1 3.4s ease-in-out infinite;
+}
+
+.box2{
+    width:150px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+    animation:box2 3.7s ease-in-out infinite;
+}
+
+.box3{
+    width:150px;
+    height:150px;
+    background-color: green;
+    border-radius:50%;
+    animation:box3 3.9s ease-in-out infinite;
+}
+
+@keyframes box1{
+    0%{
+        background-color: red;
+        opacity: 1;
+    }
+    50%{
+        background-color: white;
+        opacity: 0;
+    }
+    100%{
+        background-color: red;
+        opacity: 1;
+    }
+}
+
+@keyframes box2{
+    0%{
+        background-color: yellow;
+        opacity: 1;
+    }
+    50%{
+        background-color: white;
+        opacity: 0;
+    }
+    100%{
+        background-color: yellow;
+        opacity: 1;
+    }
+}
+
+@keyframes box3{
+    0%{
+        background-color: green;
+        opacity: 1;
+    }
+    50%{
+        background-color: white;
+        opacity: 0;
+    }
+    100%{
+        background-color: green;
+        opacity: 1;
+    }
+}
